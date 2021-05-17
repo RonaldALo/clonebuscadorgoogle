@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica,arial;
+}
+a{text-decoration: none;}
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+header{
+    width: 100%;
+    height: 72px;
+    display: flex;
+}
+.logo{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 40px;
+    
+}
+.logo img{
+    width: 86px;
+    height: 28px;
+}
+.wrap_pesquisa{
+    flex: 4;
+    display: flex;
+    align-items: flex-end;
+}
+.content_pesquisa{
+    display: flex;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 17px;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+header .content_pesquisa input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    margin-left: 15px;
+}
+header .content_pesquisa:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+
+.pesquisa_icone{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.teclado{
+    margin-right: 15px;
+}
+
+.mic{
+    margin-right: 15px;
+    width: 30px;
+}
+header .fa-search{
+    margin-right: 20px;
+    color: #1a73eb;
+}
+
+.wrap_login{
+    display: flex;
+    justify-content: flex-end;
+    flex: 3;
+}
+.content_login{
+    padding: 30px 30px 0px 0px ;
+    display: flex;
+    align-items: center;
+}
+header .header__apps{
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 30px;
+}
+.btn{
+    background: #1a73eb;
+    color: #fff;
+    border: none;
+    padding: 9px 23px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: #0683ff;
+}
+main{
+    width: 100%;
+    height: auto;
+    margin-top: 20px; 
+}
+.container_nav{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+	height: 60px;
+    margin-left: 85px;
+}
+.content_links{
+    display: flex;
+}
+.content_links a{
+    display: flex;
+    padding: 17px 12px 11px 10px;
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+}
+.content_links a i{
+    color: rgba(0, 0, 0, 0.4);
+    margin-right: 5px;
+}
+.active span{
+    color: #1a73e8;
+}
+.active{
+    border-bottom: 4px solid #1a73e8;
+}
+
+/* resultado*/ 
+
+.resultado{
+    width: calc(100% - 180px);
+    height: 20px;
+    padding: 20px 0px 0px 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.resultado span{
+    font-size: 13px;
+    color: #777;
+}
+.containerpesquisa{
+    width: calc(100% - 180px);
+	height: auto;
+	padding: 20px 0px 0px 200px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom:100px;
+}
+.blocopesquisa{
+    width: 620px;
+	overflow: hidden;
+	margin-bottom:20px;
+}
+.pesquisa_links{
+    font-size: 14px;
+    color: #2a2124;
+}
+.pesquisa_title{
+    color: #1a0dab;
+    padding: 5px 0px 0px 0px;
+}
+.pesquisa_title a:hover{
+    text-decoration: underline;
+}
+.pesquisa_info{
+    color: #545454;
+    font-size: 14px;
+    padding: 5px 0px 0px 0px;
+}
+.title h3{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #202124;
+    font-weight: 200;
+}
+.int{
+	max-width: 620px;
+	height: auto;
+	margin-top: 30px;
+	background-color: #fff;
+	display: flex;
+	justify-content: flex-start;
+}
+.int div{
+	margin-right: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.int a{
+	text-decoration: none;
+	color: #1A0DAB;
+	margin-top: 10px;
+}
+.int a:hover {
+	text-decoration: underline;
+}
+
